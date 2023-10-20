@@ -1,0 +1,7 @@
+=> The event loop in Node.js is responsible for managing the execution of asynchronous operations and handling events. It continuously checks the event queue for pending events and executes their associated callback functions
+
+=> If Events are synchronous than event loop send that event to thread pool and than one thread assigned to that event, but it is blocking when multiple request comes.
+
+=> Events and their callback functions are placed in an event queue. The event loop checks this queue for pending events.
+
+=> Callback functions associated with asynchronous operations are placed in a separate queue known as the callback queue. When an asynchronous operation completes, its callback function is placed in the callback queue.
